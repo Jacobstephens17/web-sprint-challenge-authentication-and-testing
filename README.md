@@ -24,11 +24,11 @@ We will hash the user's password using `bcryptjs`, and use JSON Web Tokens and t
 
 ### Task 1: Project Set Up
 
-- [ ] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
-- [ ] Open the assignment in Canvas and click on the "Set up git" option.
-- [ ] Follow instructions to set up Codegrade's Webhook and Deploy Key.
-- [ ] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
-- [ ] Check to see that Codegrade has accepted your git submission.
+- [1] Fork and clone the repo. Delete your old fork from Github first if you are repeating this Unit.
+- [1] Open the assignment in Canvas and click on the "Set up git" option.
+- [1] Follow instructions to set up Codegrade's Webhook and Deploy Key.
+- [1] Push your first commit: `git commit --allow-empty -m "first commit" && git push`.
+- [1] Check to see that Codegrade has accepted your git submission.
 
 For a step-by-step on setting up Codegrade see [this guide.](https://www.notion.so/lambdaschool/Submitting-an-assignment-via-Code-Grade-A-Step-by-Step-Walkthrough-07bd65f5f8364e709ecb5064735ce374)
 
@@ -36,9 +36,9 @@ For a step-by-step on setting up Codegrade see [this guide.](https://www.notion.
 
 Your finished project must include all of the following requirements (further instructions are found inside each file):
 
-- [ ] An authentication workflow with functionality for account creation and login, implemented inside `api/auth/auth-router.js`.
-- [ ] Middleware used to restrict access to resources from non-authenticated requests, implemented inside `api/middleware/restricted.js`.
-- [ ] A minimum of 2 tests per API endpoint, written inside `api/server.test.js`.
+- [1] An authentication workflow with functionality for account creation and login, implemented inside `api/auth/auth-router.js`.
+- [1] Middleware used to restrict access to resources from non-authenticated requests, implemented inside `api/middleware/restricted.js`.
+- [1] A minimum of 2 tests per API endpoint, written inside `api/server.test.js`.
 
 **Notes:**
 
@@ -56,18 +56,18 @@ Your finished project must include all of the following requirements (further in
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-- [ ] Write at least 4 tests per endpoint.
-- [ ] Extract user validation into a separate method and write unit tests for it.
-- [ ] Implement authentication using sessions instead of tokens. Build separate auth endpoints & middleware for this to avoid breaking tests.
+- [1] Write at least 4 tests per endpoint.
+- [1] Extract user validation into a separate method and write unit tests for it.
+- [1] Implement authentication using sessions instead of tokens. Build separate auth endpoints & middleware for this to avoid breaking tests.
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes.
-- [ ] Create a pull request to merge `<firstName-lastName>` branch into `main`.
-- [ ] Please don't merge your own pull request and make sure **you are on your own repo**.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade on Monday following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [1] Submit via Codegrade by committing and pushing any new changes.
+- [1] Create a pull request to merge `<firstName-lastName>` branch into `main`.
+- [1] Please don't merge your own pull request and make sure **you are on your own repo**.
+- [1] Check Codegrade for automated feedback.
+- [1] Check Codegrade on Monday following the Sprint Challenge for reviewer feedback.
+- [1] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
